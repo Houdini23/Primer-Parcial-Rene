@@ -1,0 +1,197 @@
+*{
+    padding: 0px;   
+    margin: 0px auto;
+    list-style: none;
+    box-sizing: border-box;
+   }
+
+   body{
+    padding: auto;
+    background-color: beige;
+   }
+   header{
+       background-color: greenyellow;
+       height: auto;
+       width: 90%;
+       justify-content: center;
+       align-items: center;
+   }
+   
+   #logo{
+       background-color: darkseagreen;
+       height: 10%;
+       width: 100%;
+       justify-content: center;
+       align-items: center;
+   }
+   #logo img{
+       width: 15%;
+       height: 100%;
+   }
+
+   #menu{
+       background-color: darkgreen;
+       color: white;
+       height: auto;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       margin: 0 auto;
+   }
+   nav{
+    text-align: left;
+    width: 98%;
+    height: auto;
+    font-size: 30px;
+   }
+
+   li{
+       margin: 1%;
+   }
+
+
+   main{
+       height: auto;
+       width: 90%;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+   }
+   
+   aside{
+       order: 2;
+       background-color: darkcyan;
+       height: auto;
+       width: 100%;
+   }
+   article{
+       order: 1;
+       background-color: bisque;
+       height: auto;
+       width: 100%;
+   }
+   footer{
+       padding: 5%;
+       background-color: darkgreen;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       color: white;
+       height: auto;
+       width: 90%;
+   }
+   
+   #anuncio1{
+       height: 100%;
+       width: 100%;
+       background-color: ghostwhite;
+       margin-top: 20px;
+       margin-bottom: 20px;
+   }
+   #anuncio1 img{
+    height: 100%;
+    width: 100%;
+   }
+
+
+   #anuncio2{
+    height: 100%;
+       width: 100%;
+       background-color: ghostwhite;
+       margin-bottom: 20px;
+   }
+   #anuncio2 img{
+    height: 100%;
+    width: 100%;
+   }
+
+
+   #anuncio3{
+       height: 100%;
+       width: 100%;
+       background-color: ghostwhite;
+       margin-bottom: 20px;
+   }
+   #anuncio3 img{
+    height: 100%;
+    width: 100%;
+   }
+
+   #anuncio4{
+       height: 100%;
+       width: 100%;
+       background-color: ghostwhite;
+       margin-bottom: 20px;
+   }
+   #anuncio4 img{
+    height: 100%;
+    width: 100%;
+   }
+   
+   
+   #recuadro1{
+    
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       width: 100%;
+       padding: 20px;
+   }
+   
+   #recuadro2{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       width: 100%;
+       padding: 0px 20px 20px 20px;
+   }
+   
+   #recuadro3{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       width: 100%;
+       padding: 0px 20px 20px 20px;
+   }
+   
+   
+   .foto{
+    order: 1;
+   height: 250px;
+   width: 100%;
+   background-color:antiquewhite;
+
+   justify-content: center;
+   align-items: center;
+   }
+
+   .foto img{
+       height: 100%;
+       width: 30%;
+   }
+   
+   
+   
+   .texto{
+   order: 2;
+   padding: 20px;
+   height: 250px;
+   width: 100%;
+   background-color: coral;
+   color: white;
+   }
+   
+   .texto h1{
+   
+   color: white;
+   font-size: 250%;
+   text-align: right;
+       
+       }
+   
+   

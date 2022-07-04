@@ -1,0 +1,37 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Radio Button </title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <center>
+    <form action="datosRecividos.jsp" id="form">
+    <div>
+        <input type="text" name="name" id="name" placeholder="Ingresa tu nombre"><span id="errorName" class="novisible">Campo obligatorio, ingresa tu nombre</span>
+    </div>    
+    <div>
+        <input type="password" name="password" id="password" placeholder="Ingresa contraseña"><span id="errorPass" class="novisible">    Campo obligatorio, ingresa una contraseña</span>
+    </div>    
+    <div>
+        <div id="pregunta">Selecciona un color</div><span class="novisible" id="errorGrupo">Campo obligatorio</span>
+     <div>
+        <input type="radio" class="radio" name="grupo" value="1">Amarillo
+    </div>
+    <div>
+        <input type="radio" class="radio" name="grupo" value="2">Azul
+    </div>
+    <div>
+        <input type="radio" class="radio" name="grupo" value="3">Rojo
+    </div>
+    </div>
+    <div>
+        <button type="submit">Enviar datos</button>
+    </div>
+    </form>
+</center>
+    <script src="script/js.js"></script>
+
+
+</body></html>
